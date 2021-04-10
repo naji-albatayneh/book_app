@@ -2,6 +2,7 @@
 
 # Authors:
 - Naji A. Albatayneh
+
 - Osama Nofal
 
 # Project overview
