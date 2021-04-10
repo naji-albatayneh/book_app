@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(105, 112, 218);
+}
+
+header {
+    background-color: rgb(43, 32, 68);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    color: wheat;
+}
+
+h1 {
+    grid-column: 2 / 4;
+    grid-row: 2/3;
+    text-align: left;
+    align-items: center;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+button {
+    font-size: 10px;
+}

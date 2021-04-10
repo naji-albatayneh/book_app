@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../layout/head.ejs')%>
+</head>
+
+<body class="container">
+    <header class='one a'>
+        <%- include('../layout/header.ejs')%>
+            <section class="length">
+                <p><%= book.length%> Saved Books</p>
+            </section>
+    </header>
+    <main class="sub-content">
+        <% book.forEach(item => {%>
+            <section class="grid-container">
+                <img class="Bookimg" src="<%= item.image_url%>">
+                <p class="p1"> <%=item.title%> </p>
+                <p class="p2"> <%=item.author%> </p>
+                <button class="btn1"><a class="bookBtn" href="/books/<%= item.id%>">More Details</a></button>
+            </section>
+        <%})%>
+    </main>
+</body>
+
+</html>

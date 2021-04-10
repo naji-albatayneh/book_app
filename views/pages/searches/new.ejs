@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../layout/head.ejs')%>
+</head>
+
+<body class="container">
+    <main>
+        <form action="/searches" method="post">
+            <section class="sub-content">
+                <section class="grid-containerT">
+                    <input class="searchInput" type="text" name="search" placeholder="Search by title or author" required>
+                    <fieldset>
+                        <label class="inpRadio1" for="title">
+            <span>Search by Title</span>
+            <input type="radio" name="radio" value="title" required>
+          </label>
+                    </fieldset>
+                    <fieldset>
+                        <label class="inpRadio2" for="author">
+            <span>Search by Author</span>
+            <input type="radio" name="radio" value="author" required>
+          </label>
+                    </fieldset>
+                    <button class="btn6 ">Search</button>
+                </section>
+            </section>
+        </form>
+    </main>
+</body>
+
+</html>
