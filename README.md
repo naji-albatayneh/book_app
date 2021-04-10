@@ -1,35 +1,15 @@
 # book_app
 
+# Authors:
+- Naji A. Albatayneh
+- Osama Nofal
 
-book_app (repository) //suggestion by osama
-├──data
-│  └── books.sql
-├──public
-│  └── styles
-│      ├── base.css
-│      ├── layout.css
-│      ├── modules.css
-│      └── reset.css
-├──views
-│  ├── layout
-│  │   ├── footer.ejs
-│  │   ├── head.ejs
-│  │   └── header.ejs
-│  └── pages
-│      ├── books
-│      │   ├── detail.ejs
-│      │   ├── edit.ejs
-│      │   └── show.ejs
-│      ├── searches
-│      │   ├── new.ejs
-│      │   └── show.ejs
-│      ├── error.ejs
-│      └── index.ejs
-├── .env
-├── .eslintrc.json
-├── .gitignore
-├── package-lock.json
-├── package.json
-├── README.md
-└── server.js
-```
+# Project overview
+
+This project aims to build a web app that enable users to search for books whether by title or by author name, and then save the books they like to thier list. In addition, the app allows users to edit and delete the books in thier list.
+
+
+# Estimated Time:
+
+This project took around 24 hours to complete all feature tasks in labs 11, 12 and 13
+
