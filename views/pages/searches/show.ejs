@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../../layout/head.ejs')%>
+</head>
+
+<body class="container">
+    <header class='one a'>
+        <%- include('../../layout/header.ejs')%>
+    </header>
+    <main>
+        <section>
+            <% book.forEach(book=>{%>
+                <section>
+                    <%- include('../../layout/form.ejs',{formAction:"SHOW", searchResults:results})%>
+                </section>
+                <%})%>
+        </section>
+    </main>
+</body>
+
+</html>
