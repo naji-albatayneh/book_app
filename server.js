@@ -150,3 +150,8 @@ app.get('/books', (req, res) => {
       console.log(er);
     });
 });
+
+//////////////// Proof of Life ////////////////
+client.connect().then(() => {
+  app.listen(PORT, () => console.log(`Server is alive and listening on port: ${PORT}`));
+});
